@@ -82,9 +82,9 @@ html, body {
 }
 
 /* стартовые буквы Dodge Challenger */
-.fl { color: #FF0000; } /* красный - спорт */
-.fm { color: #000000; } /* черный - мощь */
-.fs { color: #FFA500; } /* оранжевый - скорость */
+.fl { color: #FF0000; } /* красный */
+.fm { color: #000000; } /* черный */
+.fs { color: #FFA500; } /* оранжевый */
 
 #landing .title {
     background: white;
@@ -115,23 +115,59 @@ html, body {
     opacity: 0.70;
 }
 
-#landing .parallax-one { padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("https://raw.githubusercontent.com/laskutk/vita/main/dodge.webp"); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; background-position: top center; }
+/* Параллаксы с картинками Dodge */
+#landing .parallax-one { 
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url("https://raw.githubusercontent.com/laskutk/vita/main/dodge.webp"); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top center; 
+}
 
-#landing .parallax-two { padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("https://raw.githubusercontent.com/laskutk/vita/main/dodgee2.webp"); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; background-position: center center; }
+#landing .parallax-two { 
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url("https://raw.githubusercontent.com/laskutk/vita/main/dodgee2.webp"); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}
 
-#landing .parallax-three { padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url("https://raw.githubusercontent.com/laskutk/vita/main/dodgee3.webp"); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; background-position: center center; }
+#landing .parallax-three { 
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url("https://raw.githubusercontent.com/laskutk/vita/main/dodgee3.webp"); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}
 
-/* ПЛАВНЫЕ ДВУХЦВЕТНЫЕ ГРАДИЕНТЫ */
+/* Три двухцветных градиента */
 #landing .line-break-one { 
     background: linear-gradient(90deg, #FF0000, #0000FF); /* красный → синий */ 
     width: 100%; 
     margin: 0 auto; 
 }
+
 #landing .line-break-two { 
     background: linear-gradient(90deg, #000000, #FFFFFF); /* черный → белый */ 
     width: 100%; 
     margin: 0 auto; 
 }
+
 #landing .line-break-three { 
     background: linear-gradient(90deg, #FFA500, #0000FF); /* оранжевый → синий */ 
     width: 100%; 
